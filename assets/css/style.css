@@ -110,6 +110,12 @@ h4 {
 
 /** ELEMENTS **/
 
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .video {
     margin-top: -260px;
 }
@@ -481,6 +487,31 @@ svg:not(:root) {
 
 .p-bottom-160 {
     padding-bottom: 160px;
+}
+
+/** LIST **/
+
+ul.check {
+    list-style: none;
+}
+
+ul.inline li {
+    display: inline;
+}
+
+ul.inline li:not(:last-child) {
+    margin-right: 10px;
+}
+
+ul.inline li:before {
+    display: inline-block;
+    content: "\F26E";
+    width: 32px;
+    font-family: bootstrap-icons !important;
+    line-height: 1;
+    color: #00a835;
+    vertical-align: -.325em;
+    font-size: 32px;
 }
 
 /** SURVEY **/
